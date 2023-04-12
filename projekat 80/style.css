@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri0f;
+   
+} 
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    background-image: url(logo.jpg);
+
+}
+@media only screen and (max-width: 600px) {
+     h1{
+      background-color: lightblue;
+    }
+  }
+
+h1{
+    position: absolute;
+    font: bold;
+    text-align: center;
+    font-size: 50px;
+    left: 44%;
+    top: 3%;
+    transform: translate(-30%,-3%);
+    font-family: fantasy;
+    color: rgb(244, 164, 36);
+}
+.bitno{
+    font-family: fantasy;
+   
+}
+.logo{
+    margin-top: 20%;
+    margin-left: 55%;
+    transform: translate(-36%,-37%);
+    width: 600px;
+    height: auto;
+}
+h2{
+    position: absolute;
+    font: bold;
+    font-size: 50px;
+    left: 42%;
+    top: 88%;
+    color: aliceblue;
+
+}
+button{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(244, 164, 36);
+    background-color: grey;
+    width: 380px;
+    height: 75px;
+    border-radius: 20px;
+    border-style: solid;
+    border-style: none;
+    transition: 0.7s;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.7s;
+    background-color: rgb(244, 164, 36);
+    color: grey;
+}
+.naslov2{
+    font-family: fantasy;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(244, 164, 36);
+}
+.naslov3{
+    font-family: fantasy;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+    color: grey
+}
+.naslov4{
+    font-family: fantasy;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(244, 164, 36);
+}
+.naslov5{
+    font-family: fantasy;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    color: grey;
+    line-height: 65px;
+}
+.naslov6{
+    font-family: cursive;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: left;
+   display: flex;
+   justify-content: center;
+    font-size: 30px;
+    font-style: bold;
+    color: grey;
+    text-decoration: underline;
+    line-height: 30px;
+      }
+header{
+    background-color: black;
+    
+}
+header .slikaa{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+header .podnaslov2{
+    font-family: cursive;
+    font-style: bold;
+    font-size: 50px;
+    color: grey;
+    text-align: center;
+  
+}
+header .podnaslov2 .podd{
+    font-family: fantasy;
+    font-style: bold;
+    font-size: 50px;
+    color: rgb(244, 164, 36);
+    margin-top: 50px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+footer{
+    background-color: white;
+}
+footer .kontakt{
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: black;
+    margin-top: 50px;
+    font-family: fantasy;
+    font-style: bold;
+    font-size: 150px;
+    color:  rgb(244, 164, 36);
+    text-align: center;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contacts a {
+    margin: 0 10px;
+  }
+  
+  .contacts .insta {
+    width: 400px;
+    height: 400px;
+    
+  }
+.contacts .mail{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 55px;
+}
+.strelica{
+    font-size: 200px;
+}
